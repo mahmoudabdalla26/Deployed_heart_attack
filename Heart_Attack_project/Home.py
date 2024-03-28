@@ -13,7 +13,7 @@ st.markdown(''' <center>  <h6>
     This app is created to analyze the data of a heart disease. </center> </h6> ''', unsafe_allow_html=True)
 
 # Open the image file
-image = Image.open("Heart_Attack_project/Sourse/image.jpeg")
+image = Image.open("./Heart_Attack_project/Sourse/image.jpeg")
 
 # Define desired width and height
 desired_width = 300
