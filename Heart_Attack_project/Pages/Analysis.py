@@ -1,7 +1,7 @@
 # Import necessary libraries
 import streamlit as st
-import sys                                                  # sys module to manipulate the Python system path
-sys.path.append("Heart_Attack_project")  # Appending the directory containing custom modules
+# import sys                                                  # sys module to manipulate the Python system path
+# sys.path.append("Heart_Attack_project")  # Appending the directory containing custom modules
 import MEDA as md
  
 # Creating tabs using Streamlit
