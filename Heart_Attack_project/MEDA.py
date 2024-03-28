@@ -8,7 +8,7 @@ from sklearn.impute import SimpleImputer
 
 
 # Reading the data
-data_source = pd.read_csv(r"C:\Users\Lenovo\Desktop\mid\Heart_Attack_project\Sourse\heart_2022_with_nans.csv")
+data_source = pd.read_csv("Heart_Attack_project/Sourse/heart_2022_with_nans.csv")
 
 
 ## Data Cleaning ##
