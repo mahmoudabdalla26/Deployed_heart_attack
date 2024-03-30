@@ -1,7 +1,7 @@
 # Import necessary libraries
 import pandas as pd 
 import streamlit as st 
-git clone https://github.com/mahmoudabdalla26/Deployed_heart_attack
+#git clone https://github.com/mahmoudabdalla26/Deployed_heart_attack
 cd Deployed_heart_attack
 git lfs pull -I heart_2022_with_nans.csv
 df = pd.read_csv('heart_2022_with_nans.csv')
