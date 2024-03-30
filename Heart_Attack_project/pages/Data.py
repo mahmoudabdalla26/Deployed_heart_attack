@@ -13,7 +13,7 @@ st.write('Heart Disease Dataset Before Cleaning And Preprocessing:')
 st.markdown('<a href="https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease"> <center> Link to Dataset  </center> </a> ', unsafe_allow_html=True)
 
 # Reading and displaying the dataset before cleaning and preprocessing
-df = pd.read_csv("./Heart_Attack_project/Sourse/heart_2022_with_nans.csv")
+df = pd.read_csv("heart_2022_with_nans.csv")
 st.write(df)
 
 # Displaying information about the dataset after cleaning and preprocessing
