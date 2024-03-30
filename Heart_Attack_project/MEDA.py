@@ -6,9 +6,15 @@ import plotly.graph_objects as go
 from datasist.structdata import detect_outliers
 from sklearn.impute import SimpleImputer
 
-
+from zipfile import ZipFile
+zip_file_path = 'Heart_Attack_project/Sourse/heart_2022_with_nans.zip'
+with ZipFile(zip_file_path, 'r') as zip_ref:
+    zip_ref.extractall()
+extracted_files = zip_ref.namelist()
+csv_file_name = extracted_files[0] 
+data_source = pd.read_csv(csv_file_name)
 # Reading the data
-data_source = pd.read_csv("./Heart_Attack_project/Sourse/heart_2022_with_nans.zip", compression='gzip')
+#data_source = pd.read_csv("./Heart_Attack_project/Sourse/heart_2022_with_nans.zip", compression='gzip')
 
 
 ## Data Cleaning ##
