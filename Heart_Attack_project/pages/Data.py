@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st 
 
 from zipfile import ZipFile
-zip_file_path = './Heart_Attack_project/Sourse/heart_2022_with_nans.zip'
+zip_file_path = 'Heart_Attack_project/Sourse/heart_2022_with_nans.zip'
 with ZipFile(zip_file_path, 'r') as zip_ref:
     zip_ref.extractall()
 extracted_files = zip_ref.namelist()
